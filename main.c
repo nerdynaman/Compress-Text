@@ -425,10 +425,13 @@ void decoding(char *input, char *output){
 }
 
 int main(){
+    printf("Enter name of input file");
     char input[100];
     scanf("%s", input);
+    printf("Enter name of output file");
     char output[100];
     scanf("%s", output);
+    printf("Enter the mode number(1 for encoding and 2 for decoding)");
     int mode;
     scanf("%d", &mode);
     if(mode==1){
